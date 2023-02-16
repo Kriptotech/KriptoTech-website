@@ -1,0 +1,78 @@
+.explore_possibilities {
+    padding: 15px 5%;
+    width: 100%;
+    background-color: var(--main-background-secondary);
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+}
+
+.explore_possibilities .explore_possibilities_header {
+    width: min(1150px, 100%);
+    margin: 20px auto;
+    margin-bottom: 50px;
+}
+.explore_possibilities .explore_possibilities_header h1 {
+    color: var(--primary-light-text);
+}
+
+.explore_possibilities .explore_possibilities_box {
+    width: min(1150px, 100%);
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.explore_possibilities .explore_possibilities_box .explore_possibilities_item {
+    width: 30%;
+    background-color: var(--main-background-primary);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 25px;
+    border-radius: 10px;
+}
+.explore_possibilities
+    .explore_possibilities_box
+    .explore_possibilities_item
+    h2 {
+    color: var(--primary-light-text);
+}
+.explore_possibilities
+    .explore_possibilities_box
+    .explore_possibilities_item
+    p {
+    color: var(--primary-lighter-text);
+    font-size: 0.9rem;
+    margin-top: 8px;
+}
+
+.explore_possibilities
+    .explore_possibilities_box
+    .explore_possibilities_item
+    img {
+    width: 100%;
+}
+
+@media (max-width: 900px) {
+    .explore_possibilities .explore_possibilities_box {
+        flex-wrap: wrap;
+    }
+    .explore_possibilities
+        .explore_possibilities_box
+        .explore_possibilities_item {
+        width: 47%;
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 600px) {
+    .explore_possibilities
+        .explore_possibilities_box
+        .explore_possibilities_item {
+        width: 100%;
+    }
+}
+@media (max-width: 400px) {
+    .explore_possibilities .explore_possibilities_header h1 {
+        font-size: 1.5rem;
+    }
+}
