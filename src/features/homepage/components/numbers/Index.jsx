@@ -5,28 +5,31 @@ export function Numbers() {
     return (
         <>
             <div className={style.numbers}>
-                <ParticlesBg type="lines" bg={true} />
+                <ParticlesBg type="thick" bg={true} />
                 <div className={style.numbers_box}>
                     <div className={style.numbers_content}>
-                        <h1>76 000 milhões em USD</h1>
+                        <h1>+76 Clientes satisfeitos</h1>
                         <p>
-                            Volume de trading em 24 horas na exchange da Binance
+                            9 em cada 10 dos clientes da Kriptotech saem
+                            totalmente satisfeitos.
                         </p>
                     </div>
 
                     <div className={style.numbers_content}>
-                        <h1>350+</h1>
-                        <p>Criptomoedas admitidas á cotação</p>
+                        <h1>+80 Serviços feitos</h1>
+                        <p>A Kriptotech já realizou mais de 80 serviços</p>
                     </div>
 
                     <div className={style.numbers_content}>
-                        <h1>120 milhões</h1>
-                        <p>Utilizadores registrados</p>
+                        <h1>+76 clientes registrados</h1>
+                        <p>Mais de 76 clientes registrados</p>
                     </div>
 
                     <div className={style.numbers_content}>
-                        <h1>{"<0"},10%</h1>
-                        <p>Taxas de traansação mais baixas</p>
+                        <h1>20% Off</h1>
+                        <p>
+                            A Kriptotech oferece serviços com 20% de desconto.
+                        </p>
                     </div>
                 </div>
             </div>

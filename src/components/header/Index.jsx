@@ -34,7 +34,7 @@ export function Header() {
 
                 {!sidebarVisible ? (
                     <button onClick={() => setSidebarVisible(true)}>
-                        <List />
+                        <List color="rgb(255, 223, 44)" />
                     </button>
                 ) : (
                     <button onClick={() => setSidebarVisible(false)}>

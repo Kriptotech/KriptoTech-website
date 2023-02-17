@@ -7,7 +7,7 @@ export function StartWinning() {
             <div className={style.start_winning}>
                 <ParticlesBg type="lines" bg={true} />
                 <h1>Começa a ganhar hoje</h1>
-                <a href="/signup">Regista-te Agora</a>
+                <a href="/contact">Regista-te Agora</a>
             </div>
         </>
     );

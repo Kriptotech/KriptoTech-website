@@ -14,12 +14,8 @@ export function Hero() {
                             Faça um upgrade no seu negocio com soluções
                             tecnologicas
                         </h1>
-                        <a href="/signup">Melhore o seu negocio</a>
+                        <a href="/contact">Melhore o seu negocio</a>
                     </div>
-
-                    {/* <div className={style.hero_right}>
-                    <img src={HeroImage} alt="" />
-                </div> */}
                 </div>
             </div>
         </>

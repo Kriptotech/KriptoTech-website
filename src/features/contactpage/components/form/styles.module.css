@@ -1,0 +1,114 @@
+.formulary {
+    width: 100%;
+    padding: 0 5%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.formulary_container {
+    width: 1100px;
+    padding: 0 5%;
+    gap: 30px;
+}
+
+.formulary .formulary_row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+.formulary .formulary_row .formulary_item:first-child {
+    width: 60%;
+}
+
+.formulary .formulary_row form {
+    width: 100%;
+}
+.formulary .formulary_row form .input_container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.formulary .formulary_row form .input_container .input_box {
+    width: 48%;
+    margin-bottom: 20px;
+}
+.formulary .formulary_row form label {
+    display: block;
+    font-size: 0.75rem;
+    margin-bottom: 4px;
+    opacity: 0.9;
+}
+.formulary .formulary_row form .input_container .input_box input {
+    width: 100%;
+    height: 50px;
+    outline: none;
+    border-radius: 4px;
+    padding: 8px 15px;
+    color: #444;
+}
+.formulary .formulary_row form textarea {
+    border-radius: 4px;
+    width: 100%;
+    height: 150px;
+    outline: none;
+    resize: none;
+    color: #444;
+    padding: 10px 15px;
+}
+
+.formulary .formulary_row form button {
+    border-radius: 4px;
+    border: none;
+    color: #444;
+    background: var(--primary-light-yellow);
+    padding: 15px 35px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.formulary .formulary_row form button:hover {
+    opacity: 0.8;
+}
+.formulary .formulary_row form button:active {
+    opacity: 0.4;
+}
+
+.formulary .formulary_row .formulary_item:last-child {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    height: 300px;
+}
+.formulary .formulary_row .formulary_item:last-child h3 {
+    font-size: 1rem;
+    opacity: 0.9;
+    margin-bottom: 5px;
+}
+.formulary .formulary_row .formulary_item:last-child p {
+    font-size: 0.8rem;
+    opacity: 0.9;
+    margin-bottom: 5px;
+}
+
+@media (max-width: 1130px) {
+    .formulary_container {
+        width: 100%;
+    }
+}
+
+@media (max-width: 700px) {
+    .formulary_container {
+        padding: 0;
+    }
+    .formulary .formulary_row .formulary_item:first-child {
+        width: 100%;
+    }
+    .formulary .formulary_row .formulary_item:last-child {
+        width: 100%;
+        margin-top: 30px;
+    }
+}
