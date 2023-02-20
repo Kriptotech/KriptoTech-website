@@ -5,7 +5,7 @@ import { useState } from "react";
 import { Card } from "../../../../components/card/Index";
 
 export function Main() {
-    const [projectsData, setProjectsData] = useState(null);
+    const [projectsData, setProjectsData] = useState(projects);
 
     useEffect(() => {
         setProjectsData(projects);
@@ -25,8 +25,9 @@ export function Main() {
                             <Card
                                 title={val.title}
                                 description={val.description}
-                                technologies={val.technologies}
-                                github_link={val.github_link}
+                                image={val?.image}
+                                no_image={val?.no_image}
+                                app_link={val.app_link}
                                 website_link={val.website_link}
                             />
                         </div>
